@@ -125,7 +125,7 @@ GameObject:
   m_Layer: 0
   m_Name: 3.Unit Spawn
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 74901254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4f93e1607717bc48855e612d089f050, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b539b63f9a961048aa371603c0b168a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyUnits:
@@ -170,7 +170,7 @@ GameObject:
   m_Layer: 0
   m_Name: 1.Unit Spawn
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -292,7 +292,7 @@ GameObject:
   m_Layer: 0
   m_Name: 4.Unit Spawn
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1058583143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e395b535ec5364b8d0e88fa703707a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b539b63f9a961048aa371603c0b168a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyUnits:
@@ -507,7 +507,7 @@ GameObject:
   m_Layer: 0
   m_Name: 2.Unit Spawn
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964186981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 161b34da0e55cdf49ba86d7180e9fdae, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b539b63f9a961048aa371603c0b168a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyUnits:

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThreeUnitSpwan : MonoBehaviour
+public class EnemyUnitSpawn : MonoBehaviour
 {
 	public GameObject[] enemyUnits;
+
 	// Use this for initialization
 	void Start()
 	{
