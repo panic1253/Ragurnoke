@@ -121,6 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74901255}
+  - component: {fileID: 74901256}
   m_Layer: 0
   m_Name: 3.Unit Spawn
   m_TagString: Untagged
@@ -141,6 +142,22 @@ Transform:
   m_Father: {fileID: 1638155833}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74901256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 74901254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f93e1607717bc48855e612d089f050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyUnits:
+  - {fileID: 1086845987429876, guid: a432536d202a691459398e9afeed676e, type: 2}
+  - {fileID: 1200057590032790, guid: 2c1902741ebdb5745aafbc245039c3ff, type: 2}
+  - {fileID: 1200057590032790, guid: e1f43af5fae37344d8f0272178cfb8cb, type: 2}
+  - {fileID: 1200057590032790, guid: 8c9b113711ff45342ab7a6fa6eabebdf, type: 2}
 --- !u!1 &208320989
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,6 +166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 208320990}
+  - component: {fileID: 208320991}
   m_Layer: 0
   m_Name: 1.Unit Spawn
   m_TagString: Untagged
@@ -169,6 +187,22 @@ Transform:
   m_Father: {fileID: 1638155833}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &208320991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 208320989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b539b63f9a961048aa371603c0b168a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyUnits:
+  - {fileID: 1086845987429876, guid: a432536d202a691459398e9afeed676e, type: 2}
+  - {fileID: 1200057590032790, guid: 2c1902741ebdb5745aafbc245039c3ff, type: 2}
+  - {fileID: 1200057590032790, guid: e1f43af5fae37344d8f0272178cfb8cb, type: 2}
+  - {fileID: 1200057590032790, guid: 8c9b113711ff45342ab7a6fa6eabebdf, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1058583144}
+  - component: {fileID: 1058583145}
   m_Layer: 0
   m_Name: 4.Unit Spawn
   m_TagString: Untagged
@@ -274,6 +309,22 @@ Transform:
   m_Father: {fileID: 1638155833}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058583145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1058583143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e395b535ec5364b8d0e88fa703707a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyUnits:
+  - {fileID: 1086845987429876, guid: a432536d202a691459398e9afeed676e, type: 2}
+  - {fileID: 1200057590032790, guid: 2c1902741ebdb5745aafbc245039c3ff, type: 2}
+  - {fileID: 1200057590032790, guid: e1f43af5fae37344d8f0272178cfb8cb, type: 2}
+  - {fileID: 1200057590032790, guid: 8c9b113711ff45342ab7a6fa6eabebdf, type: 2}
 --- !u!1 &1069182703
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,6 +401,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1436996165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436996168}
+  - component: {fileID: 1436996167}
+  - component: {fileID: 1436996166}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1436996166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436996165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1436996167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436996165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1436996168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436996165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638155832
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1964186982}
+  - component: {fileID: 1964186983}
   m_Layer: 0
   m_Name: 2.Unit Spawn
   m_TagString: Untagged
@@ -410,3 +524,19 @@ Transform:
   m_Father: {fileID: 1638155833}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964186983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964186981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161b34da0e55cdf49ba86d7180e9fdae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyUnits:
+  - {fileID: 1086845987429876, guid: a432536d202a691459398e9afeed676e, type: 2}
+  - {fileID: 1200057590032790, guid: 2c1902741ebdb5745aafbc245039c3ff, type: 2}
+  - {fileID: 1200057590032790, guid: e1f43af5fae37344d8f0272178cfb8cb, type: 2}
+  - {fileID: 1200057590032790, guid: 8c9b113711ff45342ab7a6fa6eabebdf, type: 2}
